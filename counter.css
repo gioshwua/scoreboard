@@ -1,0 +1,54 @@
+body {
+  line-height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  height: 29px;
+}
+
+.main-con {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(175, 212, 211);
+  border: 1px solid;
+  border-radius: 10px;
+  width: 600px;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  align-items: center;
+}
+
+#score {
+  color: red;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#score2 {
+  color: red;
+  background-color: black;
+  border-radius: 10px;
+}
+.home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.away {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.score-board {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
