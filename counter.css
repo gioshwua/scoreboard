@@ -52,3 +52,10 @@ button {
   display: flex;
   justify-content: space-around;
 }
+
+@media (max-width: 500px) {
+  .main-con {
+    font-size: 15px;
+    width: 300px;
+  }
+}
